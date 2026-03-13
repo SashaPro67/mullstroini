@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #2cf396;
+}
+
+.review-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Чтобы отступы не ломали ширину */
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Кнопка на всю ширину формы */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+p {
+  line-height: 1.6; /* Межстрочный интервал */
+  margin-bottom: 10px; /* Отступ между абзацами */
+}
+
+.goal-block {
+  background-color: rgb(20, 28, 35); /* Чуть светлее фон для блока с целью */
+  padding: 15px; /* Внутренние отступы */
+  border-radius: 6px; /* Скруглённые углы блока */
+  margin-top: 15px; /* Отступ от предыдущего текста */
+}
+
